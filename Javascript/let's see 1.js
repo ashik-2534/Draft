@@ -9,3 +9,21 @@ function totalTime(){
     console.log(total)
 }
 totalTime()
+
+
+
+````
+
+
+let lapsCompleted = 0
+
+// Create a function that increments the lapsCompleted variable with one
+function lapNum(){
+    lapsCompleted = lapsCompleted + 1
+}
+// Run it three times
+lapNum()
+lapNum()
+lapNum()
+
+console.log(lapsCompleted)
