@@ -26,3 +26,9 @@
     outline: 5px solid crimson;
 
 }
+
+b{
+    width: 300px;
+    background: #ff0;
+    display: inline-block;
+}
