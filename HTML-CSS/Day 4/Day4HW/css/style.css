@@ -1,1 +1,31 @@
+body {
+    background: #a59d9d;
+}
 
+.container {
+    background-color: white;
+    width: 720px;
+    height: 100vh;
+    margin: auto;
+    padding: 5px;
+}
+
+.head {
+    height: 100px;
+    background-color: aqua;
+    padding: 0;
+}
+
+.imageAlign{
+    display: inline-block;
+    text-align: left;
+
+}
+.logo {
+    height: 65px;
+}
+
+.btn {
+    display: inline-block;
+    margin-left:;
+}
