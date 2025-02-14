@@ -17,6 +17,7 @@
     position:relative;
     bottom: -20px;
     right: -30px;
+    border-radius: 50%;
     margin-bottom: 100vh;
 }
 
@@ -34,7 +35,7 @@
     height: 100px;
     background: hotpink;
     position: absolute;
-    top: -20px;
+    top: 50px;
     right: -30px;
     border-radius: 50%;
 }
@@ -46,4 +47,31 @@
     position: sticky;
     top: 20px;
     left: 20px;
+}
+
+.chaka:hover{
+    background: red;
+}
+
+.baba::before{
+    content: "Hero";
+}
+
+.baba::after{
+    content: "Pagol";
+}
+
+.sukrabad::before{
+    content: "80%";
+    width: 50px;
+    line-height: 50px;
+    background: tomato;
+    position: absolute;
+    top: 25px;
+    right: -25px;
+    color: #fff;
+    text-align: center;
+    border-radius: 50%;
+    font-weight: bold;
+
 }
