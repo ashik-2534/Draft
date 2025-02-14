@@ -67,11 +67,26 @@
     line-height: 50px;
     background: tomato;
     position: absolute;
-    top: 25px;
-    right: -25px;
+    top: 10px;
+    left: 30px;
     color: #fff;
     text-align: center;
     border-radius: 50%;
     font-weight: bold;
+    border: 2px solid #ccc;
+
+}
+
+.sukrabad::after{
+    content: "SALE";
+    width: 50px;
+    line-height: 20px;
+    background: wheat;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    text-align: center;
+    border-radius: 12px/50%;
+
 
 }
