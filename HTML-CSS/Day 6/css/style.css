@@ -1,1 +1,49 @@
-ECHO is on.
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.faka{
+    min-height: 70vh;
+    background: #ccc;
+
+}
+
+.dhaka{
+    width: 200px;
+    height: 200px;
+    background: cornflowerblue;
+    position:relative;
+    bottom: -20px;
+    right: -30px;
+    margin-bottom: 100vh;
+}
+
+.kaka{
+    width: 100px;
+    height: 100px;
+    background: orange;
+    position:fixed;
+    top: 20px;
+    right: 20px;;
+}
+
+.sukrabad{
+    width: 100px;
+    height: 100px;
+    background: hotpink;
+    position: absolute;
+    top: -20px;
+    right: -30px;
+    border-radius: 50%;
+}
+
+.chaka{
+    width: 100px;
+    height: 100px;
+    background: turquoise;
+    position: sticky;
+    top: 20px;
+    left: 20px;
+}
