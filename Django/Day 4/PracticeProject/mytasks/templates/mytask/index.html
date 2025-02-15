@@ -1,16 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>To do task</title>
-</head>
-<body>
-    <ul>
-        {%for tasks in tasks%}
-        <li> {{tasks}} </li>
-        {%endfor%}
-    </ul>
+{% extends "mytask/layout.html" %}
 
-</body>
-</html>
+{% block bodycontent %}
+<h1>Task to do</h1>
+<ul>
+    {%for tasks in tasks%}
+    <li> {{tasks}} </li>
+    {%endfor%}
+</ul>
+<a href="{% url 'mytasks:add' %}">Add new task</a>
+
+
+{% endblock %}
