@@ -7,4 +7,5 @@ def home(hm):
 def ashik(ask):
     return HttpResponse ("hello ashik")
 
-def 
+def Kaj (k):
+    return HttpResponse("bekar")
