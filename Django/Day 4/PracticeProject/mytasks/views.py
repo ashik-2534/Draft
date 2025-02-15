@@ -1,5 +1,7 @@
 from django.shortcuts import render
 
-# Create your views here.
+ajaitakaj = ["A task" , "B task" , "C task"]
 def index(request):
-    return render (request, "mytasks/index.html")
+    return render (request, "mytask/index.html",{
+        "tasks": ajaitakaj,
+    })
