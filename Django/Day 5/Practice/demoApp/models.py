@@ -4,3 +4,5 @@ from django.db import models
 class person(models.Model):
     firstName = models.CharField(max_length=10)
     lastName = models.CharField(max_length=10)
+    phone = models.IntegerField(max_length=11, null=True)
+    date = models.DateField(null=True)
