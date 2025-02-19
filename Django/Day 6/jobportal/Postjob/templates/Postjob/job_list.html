@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lists of Job</title>
+</head>
+<body>
+    <h1>Available job</h1>
+    <ul>
+        {% for job in jobs %}
+        <li><a href="{% url 'job_detail' job.id %}">Work as {{jobs.title}} at {{jobs.company}}</a></li>
+        {%%}
+    </ul>
+    <a href="{% url 'job_post' %}">Post a job to hire.</a>
+</body>
+</html>
