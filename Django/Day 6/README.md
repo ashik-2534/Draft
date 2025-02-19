@@ -9,4 +9,5 @@
 7. Registered your app to settings
 8. Created model for Job and Application
 9. Migrated the models
-10. Created forms (JobForm, ApplicationForm)
+10. Created forms.py and forms (JobForm, ApplicationForm) in it
+11. worked with views in 'views.py'

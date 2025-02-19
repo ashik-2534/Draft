@@ -18,7 +18,7 @@ class Application(models.Model):
     email = models.EmailField()
     resume = models.FileField(upload_to="resume/")
     cover_letter = models.TextField()
-    appllied_on = models.DateTimeField(auto_now_add=True)
+    applied_on = models.DateTimeField(auto_now_add=True)
 
     def __str__(self):
         return f"{self.name} applied for {self.job.title}"
