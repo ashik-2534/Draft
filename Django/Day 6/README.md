@@ -11,3 +11,4 @@
 9. Migrated the models
 10. Created forms.py and forms (JobForm, ApplicationForm) in it
 11. worked with views in 'views.py'
+12. created urls.py and Made urls, and linked the url to porject url
