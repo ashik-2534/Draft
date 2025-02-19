@@ -9,3 +9,4 @@
 7. Registered your app to settings
 8. Created model for Job and Application
 9. Migrated the models
+10. Created forms (JobForm, ApplicationForm)
