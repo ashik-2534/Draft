@@ -14,3 +14,4 @@
 12. created urls.py and Made urls, and linked the url to porject url
 13. Created tamplates
 14. Registered tamplates folder on settings
+15. Start the surver and observe your project ```py manage.py runserver```
