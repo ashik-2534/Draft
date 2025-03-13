@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+body{
+    height: 150vh;
+}
+h2{
+    text-align: center;
+    margin: 20px;
+    font-size: 36px;
+}
+.profile-card{
+    max-width: 400px;
+    height: max-content;
+    margin: auto;
+    padding: 20px;
+    background-color: cornflowerblue;
+    border-radius: 30px 4px;
+    text-align: center;
+    box-shadow: 0px 0px 26px rgba(0, 0, 0, 0.7);
+    overflow: hidden;
+    
+}
+.profile-card img{
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    border: 5px solid black;
+    border-radius: 50%;
+}
+
+.profile-card h1{
+    font-size: 24px;
+    margin-top: 10px;
+    text-shadow: 2px 1px rgba(0, 0, 0, 0.182);
+}
+
+.bio{
+    font-size: 18px;
+    padding-top: 15px;
+    margin-bottom:10px;
+    color: #d3d3d3;
+}
+
+.line{
+    width: 100%;
+    border: 1px solid #a9a9a9;
+    margin-bottom: 30px;
+}
+
+.fa-brands{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    border-radius: 50%;
+    background-color:#879eeb ;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    margin: 15px;
+    transition: all 0.3s ease-in-out;
+}
+
+.fa-brands:hover{
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.7);
+}
+.btn{
+    text-decoration: none;
+
+}
+.btn button{
+    max-width: 150px;
+    margin: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 8px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    display: block;
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 18px ;
+}
+
+.btn button:hover{
+    opacity: 0.7;
+    background-color: #a9a9a9;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.7);
+}
+
+.info-box{
+    margin: 15px;
+    padding: 10px;
+    display: inline-block;
+    text-align: left;
+    border: 1px solid white;
+}
+
+.info-box h3{
+    text-decoration: underline wheat;
+    text-underline-offset: 5px;
+}
+.info-box p{
+    margin-top: 10px;
+}
