@@ -1,4 +1,4 @@
-### ✅ **Task 1: Styled Profile Card**  
+### ✅ **Task 1: Styled height: 100vh;**  
 
 1. **HTML Structure Explanation**  
    - Create a container to hold the entire profile card. This serves as a wrapper for styling.  
