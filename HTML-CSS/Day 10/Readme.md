@@ -1,70 +1,87 @@
-### ✅ **Task 1: Responsive Navigation Bar (Flex + Position)**  
+### ✅ **Task 1: Floating Notification Box (Position & Before/After)**  
 
-1. **Navigation Container:**  
-   - Create a parent container to hold the navigation elements.  
-   - Apply `display: flex;` to this container, which allows items inside to align horizontally.  
-   - Use `justify-content: space-between;` to place the logo on the left and links on the right, creating even spacing.  
-   - Set `position: fixed;` to keep the navbar at the top while scrolling.  
-   - Apply `top: 0; left: 0;` to pin the navbar to the upper-left corner.  
-   - Add `width: 100%;` to stretch the navbar across the entire screen width.  
-   - Use `padding` to create inner space and make the navbar taller.  
+1. **Create a Notification Container:**  
+   - Use a `<div>` to hold the notification content.  
+   - Apply `position: absolute` to this container so it can be placed anywhere relative to its parent.  
+   - Set `top: 10px; right: 10px;` to place it in the top-right corner.  
 
-2. **Navigation Links:**  
-   - Create separate link items for "Home," "About," and "Contact."  
-   - Apply `margin` between links to prevent them from touching.  
-   - Use `text-decoration: none;` to remove the underline from links.  
+2. **Style the Notification Box:**  
+   - Use padding to create space inside the box.  
+   - Add a background color and border-radius to make it visually appealing.  
 
----
-
-### ✅ **Task 2: Card Layout (Flex + Font)**  
-
-1. **Card Container:**  
-   - Create a parent container to hold multiple cards.  
-   - Apply `display: flex;` to arrange the cards in a row.  
-   - Use `flex-wrap: wrap;` to allow the cards to move to the next line on smaller screens.  
-   - Add `gap` or `margin` to create space between the cards.  
-
-2. **Individual Cards:**  
-   - Each card should have an image, a heading, and a paragraph.  
-   - Use `flex: 1;` to make cards flexible and evenly distributed.  
-   - Apply `padding` inside the card for inner spacing.  
-
-3. **Font Styling:**  
-   - Use `font-family` to control the typeface.  
-   - Apply `font-size` to adjust the size of headings and descriptions.  
-   - Set `font-weight` to make text bold or regular.  
+3. **Add a Small Badge Using `::before` or `::after`:**  
+   - Use the `::before` pseudo-element to create a small circular badge.  
+   - Set `content: ""` to make it appear.  
+   - Apply `position: absolute; top: -5px; right: -5px;` to place it slightly outside the notification box.  
 
 ---
 
-### ✅ **Task 3: Sticky Footer (Position + Flex)**  
+### ✅ **Task 2: Profile Layout with Flexbox & Positioning**  
 
-1. **Page Layout:**  
-   - Structure your page with a header, content section, and footer.  
-   - Apply `display: flex;` and `flex-direction: column;` on the body to stack these sections vertically.  
+1. **Create a Profile Container:**  
+   - Wrap the profile details inside a `<div>`.  
+   - Use `display: flex` to arrange the image and text in a row.  
 
-2. **Content Section:**  
-   - Use `flex-grow: 1;` to make the main content area expand and push the footer to the bottom.  
+2. **Position the Profile Image:**  
+   - Set `width` and `height` to ensure it fits well.  
+   - Apply `border-radius` for rounded edges.  
 
-3. **Footer Styling:**  
-   - Set `position: sticky;` to make the footer stay in place when scrolling.  
-   - Use `bottom: 0;` to pin it to the bottom of the viewport.  
-   - Apply `padding` for inner spacing and better visibility.  
+3. **Align Text Details:**  
+   - Use `flex-grow: 1` to allow the text to fill the available space.  
+   - Adjust padding to create spacing between the image and text.  
+
+4. **Add an Overlay Button Using `position: absolute`:**  
+   - Inside the profile container, add a button.  
+   - Apply `position: absolute` and `bottom: 10px; right: 10px;` to place it at the bottom-right of the profile.  
+   - Use `position: relative` on the parent container to ensure the button is positioned relative to it.  
 
 ---
 
-### ✅ **Task 4: GitHub Practice**  
+### ✅ **Task 3: Custom Button with Before/After Effects**  
 
-1. **Initialize a Repository:**  
-   - Navigate to your project folder using the terminal.  
-   - Run `git init` to turn the folder into a Git repository.  
+1. **Style the Button Base:**  
+   - Add a background color and padding to create a solid button shape.  
+   - Set `border: none` and `cursor: pointer` for better interaction.  
 
-2. **Connect to GitHub:**  
-   - Create a new repository on GitHub.  
-   - Copy the repository URL and use `git remote add origin <URL>` to link your local repository to GitHub.  
+2. **Create an Underline Effect Using `::before`:**  
+   - Use `::before` to generate a thin line below the button.  
+   - Apply `position: absolute; bottom: 0; left: 0;` to place it correctly.  
+   - Set `width: 100%` to span across the button.  
 
-3. **Stage and Commit Changes:**  
-   - Use `git add .` to stage all changes.  
-   - Commit your work with `git commit -m "your message"` to record the changes with a meaningful message.  
+3. **Add a Hover Effect with `::after`:**  
+   - Use `::after` to create a shadow or glow effect.  
+   - Set `content: ""` and apply a `box-shadow` on hover.  
 
-4. **Push to GitHub:**  
-   - Upload your code using `git push origin main` (or `master` depending on your branch).  
+---
+
+### ✅ **Task 4: Card Grid Layout (Flexbox & Font Family)**  
+
+1. **Create a Card Container:**  
+   - Wrap all cards inside a `div` with `display: flex; flex-wrap: wrap;` to align them in a row.  
+
+2. **Style Individual Cards:**  
+   - Apply `flex: 1 1 300px;` to ensure they resize properly.  
+   - Use `border-radius` for rounded edges.  
+
+3. **Apply Different `font-family` Styles:**  
+   - Use one `font-family` for the heading and another for the description.  
+
+4. **Position Card Details Using `relative` and `absolute`:**  
+   - Set `position: relative` on the card.  
+   - Place a floating label (`absolute`) inside the card with `top: 10px; left: 10px;`.  
+
+---
+
+### ✅ **Task 5: Sticky Navigation Bar (Positioning & Flexbox)**  
+
+1. **Create a Navigation Container:**  
+   - Wrap all menu items inside a `<nav>` tag.  
+   - Use `display: flex; justify-content: space-between;` to distribute the links evenly.  
+
+2. **Make It Stick to the Top:**  
+   - Apply `position: fixed; top: 0; width: 100%;` to keep it at the top of the page.  
+   - Add `background-color` and padding for better visibility.  
+
+3. **Style Links and Hover Effects:**  
+   - Use `text-decoration: none;` to remove underlines.  
+   - Apply `::before` and `::after` to add hover effects like an animated underline.  
