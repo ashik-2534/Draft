@@ -8,10 +8,12 @@
 // After you run the code, change hour's value and run it again. Do this a few times to make sure the program is working as intended.
 
 
-let hour = 8
+let hour = new Date().getHours()
 
 if (hour < 12){
     console.log("Good morning 🌞")
     console.log("This is morning routine.")
     console.log("lets have a great day.")
+}else{
+    console.log("Good afternoon!")
 }
