@@ -25,5 +25,24 @@
 
 let questions = "Is Codédex better than Udemy yet?"
 
-let num = Math.floor(Math.random() * 10)
+let rndmNum = Math.floor(Math.random() * 9) + 1
 
+if (rndmNum == 1){
+    console.log("Yes - definitely.")
+}else if (rndmNum == 2){
+    console.log("It is decidedly so.")
+}else if (rndmNum == 3){
+    console.log("Without a doubt.")
+}else if (rndmNum == 4){
+    console.log("Reply hazy, try again.")
+}else if (rndmNum == 5){
+    console.log("Ask again later.")
+}else if (rndmNum == 6){
+    console.log("Better not tell you now.")
+}else if (rndmNum == 7){
+    console.log("My sources say no.")
+}else if (rndmNum == 8){
+    console.log("Outlook not so good.")
+}else if (rndmNum == 9){
+    console.log("Very doubtful.")
+}
